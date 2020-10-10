@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/game.css">
+</head>
+
+<body onload="drawCover()">
+<canvas id="cvs" width="1400" height="900"></canvas>
+
+<div id="setup">
+    <!--<h1>设&nbsp;&nbsp;&nbsp;&nbsp;置</h1>-->
+    <p><img src="img/gameImg/logo.png"/></p>
+    <p>
+        操作方法
+    </p>
+    <p>
+        本游戏使用遥感进行移动
+    </p>
+    <p>
+        x 键射击
+    </p>
+    <p>
+        z 键使用人物自身的技能
+    </p>
+    <p>
+        游戏的目标就是活下去，看看你能撑几轮
+    </p>
+    <p>
+        准备好了就开始游戏吧！
+    </p>
+    <p>
+        <button id="gameStart" onclick="gameStart()">
+            <img src="img/gameImg/gameStartBtn.png"/>
+        </button>
+    </p>
+</div>
+
+<script src="js/map.js"></script>
+<script src="js/base.js"></script>
+<script src="js/game.js"></script>
+</body>
+
+</html>
